@@ -1,9 +1,9 @@
-function lab01()
+function lab1()
     a = 0;
     b = 1;
     epsArr = [0.01 0.0001 0.000001];
     
-    fprintf('eps          | x*          | f* = f(x*)  | iterations  \n');
+    fprintf('eps          | x*          | f* = f(x*)  | N           \n');
     fprintf('-------------|-------------|-------------|-------------\n');
     
     for eps = epsArr
